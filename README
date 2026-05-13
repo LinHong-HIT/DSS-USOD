@@ -3,19 +3,19 @@ Source code for our paper **[Learning Dynamic Structural Specialization for Unde
 
 Created by **Lin Hong**, email: eelinhong@ust.hk
 
-> We are open to collaboration and are looking for self-motivated students. If you’re interested in this topic, please feel free to contact me via email.
+> We are open to collaboration and are looking for self-motivated students. If you're interested in this topic, please feel free to contact me via email.
 
 ---
 
 ## DSS-USOD
-The [trained model](https://pan.baidu.com/s/1TwwaTcdmTiU2FHOC5xC3Vw) (Baidu Netdisk, fetch code: ie0k) or [Google Drive (DSS-USOD baseline)](https://drive.google.com/file/d/1fFKhuuR2MEEjBWRtjFdMZCoRxLrQqUK1/view?usp=drive_link) is simple but strong. It adopts a hybrid architecture based on an encoder-decoder design that leverages transformer and convolution as the basic computational building block of the encoder and decoder, respectively.
+The [trained model](https://pan.baidu.com/s/1TwwaTcdmTiU2FHOC5xC3Vw) (Baidu Netdisk, fetch code: ie0k) or [Google Drive (DSS-USOD baseline)](https://drive.google.com/file/d/1fFKhuuR2MEEjBWRtjFdMZCoRxL) can be downloaded.
 
 ![DSS-USOD Framework](framework7.png)
 
 ### Requirement
 1. Python 3.8
-2. Pytorch 1.6.0
-3. Torchvision 0.7.0
+2. PyTorch 1.6.0
+3. TorchVision 0.7.0
 
 ---
 
@@ -51,8 +51,16 @@ If you think our work is helpful, please cite:
   volume={34},
   number={},
   pages={1602-1615},
-  doi={10.1109/TIP.2023.3266163}}
-Acknowledgement
-We thank the developer of MMdetection, WaterMask, and USIS-SAM for providing their open-source code, which greatly facilitated our benchmark evaluations.
-Note to Active Participants
-We hope this work offers a new perspective on RGB-based USOD by demonstrating the importance of explicitly disentangling and dynamically coordinating complementary structural representations learned from a single RGB image.
+  doi={10.1109/TIP.2023.3266163}
+}
+```
+
+---
+
+## Acknowledgement
+We thank the developer of [MMdetection](https://github.com/open-mmlab/mmdetection), [WaterMask](https://github.com/LiamLian0727/WaterMask), and [USIS-SAM](https://github.com/LiamLian0727/USIS10K) for providing their open-source code, which greatly facilitated our benchmark evaluations.
+
+---
+
+## Note to Active Participants
+We hope this work offers a new perspective on RGB-based USOD by demonstrating the importance of explicitly disentangling and dynamically coordinating complementary structural representations learned from diverse underwater images. Your contributions and feedback are welcome!
