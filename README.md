@@ -22,7 +22,7 @@ The [trained model](https://pan.baidu.com/s/1TwwaTcdmTiU2FHOC5xC3Vw) (Baidu Netd
 ## Benchmark
 We retrained 40 SOTA methods in the fields of SOD and USOD. Here is the qualitative evaluation of the 40 SOTA methods and the proposed DSS-USOD baseline.
 
-![Qualitative Evaluation](https://github.com/LinHong-HIT/USOD10K/blob/4ac87c771709fc62ba0bce219cdaec2bee176c0d/qualitative_va.png)
+![Qualitative Evaluation](qualitative_compare2.png)
 
 ### Available Resources
 1. **Predicted saliency maps of USOD10K**  
