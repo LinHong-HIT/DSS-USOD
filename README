@@ -1,4 +1,4 @@
-# USIS16K
+# DSS-USOD
 
 Source code for our paper “**[Learning Dynamic Structural Specialization for Underwater Salient Object Detection](https://arxiv.org/abs/2506.19472)**” by Lin Hong,  Xin Wang, Yihao Li, and Xia Wang. 
 
@@ -7,11 +7,8 @@ Created by **Lin Hong**, email: eelinhong@ust.hk
 **! We are open to collaboration and are looking for self-motivated students. If you’re interested in this topic, please feel free to contact me via email.**
 
 
-## TC-USOD baseline
-The [TC-USOD baseline](https://pan.baidu.com/s/1TwwaTcdmTiU2FHOC5xC3Vw) Baidu Netdisk with **fetch code**: [ie0k] Or Google drive [TC-USOD baseline](https://drive.google.com/file/d/1fFKhuuR2MEEjBWRtjFdMZCoRxLrQqUK1/view?usp=drive_link) is simple but strong, it adopts a hybrid architecture based on an encoder-decoder design that leverages transformer and convolution as the basic computational building block of the encoder and decoder, respectively. 
-
-**How to generate predicted saliency maps by yourself or retrain this model:**
-You create a folder named checkpoint under the TC_USOD folder (cd TC_USOD->mkdir checkpoint) and put the download TC-USOD baseline model in it to generate the **predicted saliency maps** (You can also find them in the TC_USOD/preds/USOD10K in this project). Of course, you can retrain this method with the available USOD10K dataset to get your own model. 
+## DSS-USOD
+The [trained model](https://pan.baidu.com/s/1TwwaTcdmTiU2FHOC5xC3Vw) Baidu Netdisk with **fetch code**: [ie0k] Or Google drive [DSS-USOD baseline](https://drive.google.com/file/d/1fFKhuuR2MEEjBWRtjFdMZCoRxLrQqUK1/view?usp=drive_link) is simple but strong, it adopts a hybrid architecture based on an encoder-decoder design that leverages transformer and convolution as the basic computational building block of the encoder and decoder, respectively. 
 
 ![](framework2.png)
 ### Requirement
@@ -20,16 +17,14 @@ You create a folder named checkpoint under the TC_USOD folder (cd TC_USOD->mkdir
 3. Torchvison 0.7.0
 
 ## Benchmark
-We retrained 35 SOTA methods in the fields of SOD and USOD. It takes us about 1750 hours to retrain these methods. Here is the qualitative evaluation of the 35 SOTA methods and the proposed TC-USOD baseline.
-![avatar](https://github.com/LinHong-HIT/USOD10K/blob/4ac87c771709fc62ba0bce219cdaec2bee176c0d/qualitative_eva.png)
+We retrained 40 SOTA methods in the fields of SOD and USOD. Here is the qualitative evaluation of the 40 SOTA methods and the proposed DSS-USOD baseline.
+![avatar](https://github.com/LinHong-HIT/USOD10K/blob/4ac87c771709fc62ba0bce219cdaec2bee176c0d/qualitative_va.png)
 
-(1) **Retrained models** are available [BaiduNetdisk](https://pan.baidu.com/s/1VXyNHxy5Iy5GYYBCh_2thg) **fetch code**: [usod]  &&& [Googledriven](https://drive.google.com/file/d/1x_UhY7Ik6rFqkk4f5wNG97_CfC_DD7JZ/view?usp=drive_link) 
+(1) **Predicted saliency maps of USOD10K** are available [BaiduNetdisk](https://pan.baidu.com/s/1EpnE07lgamyaUIUZWdccqA) **fetch code**: [usod] &&& [Google driven](https://drive.google.com/file/d/1D4wLLol843DEpolmO-cYpo2jaiBY7Ufn/view?usp=drive_link)
 
-(2) **Predicted saliency maps of USOD10K** are available [BaiduNetdisk](https://pan.baidu.com/s/1EpnE07lgamyaUIUZWdccqA) **fetch code**: [usod] &&& [Google driven](https://drive.google.com/file/d/1D4wLLol843DEpolmO-cYpo2jaiBY7Ufn/view?usp=drive_link)
+(2) **Predicted saliency maps of USOD** are available [BaiduNetdisk](https://pan.baidu.com/s/1cnmMZ0JSshssm2jc9p2BdA ) **fetch code**: [usod]  &&& [Google driven](https://drive.google.com/file/d/1YoXKUKaauy2PkkISpK-QWJpetXIsTsrO/view?usp=drive_link)
 
-(3) **Predicted saliency maps of USOD** are available [BaiduNetdisk](https://pan.baidu.com/s/1cnmMZ0JSshssm2jc9p2BdA ) **fetch code**: [usod]  &&& [Google driven](https://drive.google.com/file/d/1YoXKUKaauy2PkkISpK-QWJpetXIsTsrO/view?usp=drive_link)
-
-(4) **Evaluation results** are available [BaiduNetdisk](https://pan.baidu.com/s/1AL4WQeFh1KrD0jj9JW182g) **fetch code**: [usod]  &&& [Google driven](https://drive.google.com/file/d/1jCuCvK-UJY9q3g_TMQ7NTWqXfXbG21bk/view?usp=drive_link)
+(3) **Evaluation results** are available [BaiduNetdisk](https://pan.baidu.com/s/1AL4WQeFh1KrD0jj9JW182g) **fetch code**: [usod]  &&& [Google driven](https://drive.google.com/file/d/1jCuCvK-UJY9q3g_TMQ7NTWqXfXbG21bk/view?usp=drive_link)
 
 
 ## Bibliography entry
@@ -51,4 +46,4 @@ We thank the developer of [MMdetection](https://github.com/open-mmlab/mmdetectio
 
 ## Note to active participants
 
-**USIS aims to jointly address two key challenges in underwater vision: where to look (saliency prediction) and what is there (instance segmentation). We hope USIS16K can facilitate research within the fieds of marine computer vision and marine robotics.** 
+** We hope this work offers a new perspective on RGB-based USOD by demonstrating the importance of explicitly disentangling and dynamically coordinating complementary structural representations learned from a single RGB image.** 
