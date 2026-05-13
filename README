@@ -1,49 +1,61 @@
-# DSS-USOD
+DSS-USOD
+Source code for our paper Learning Dynamic Structural Specialization for Underwater Salient Object Detection
+ArXiv Link: https://arxiv.org/abs/2506.19472
+Authors: Lin Hong, Xin Wang, Yihao Li, Xia Wang
+Maintainer: Lin Hong
+Contact Email: eelinhong@ust.hk
+We are open to research collaboration and recruiting self-motivated students. If you are interested in underwater salient object detection, underwater vision, and related deep learning topics, please feel free to contact us via email.
 
-Source code for our paper “**[Learning Dynamic Structural Specialization for Underwater Salient Object Detection](https://arxiv.org/abs/2506.19472)**” by Lin Hong,  Xin Wang, Yihao Li, and Xia Wang. 
-
-Created by **Lin Hong**, email: eelinhong@ust.hk 
-
-**! We are open to collaboration and are looking for self-motivated students. If you’re interested in this topic, please feel free to contact me via email.**
-
-
-## DSS-USOD
-The [trained model](https://pan.baidu.com/s/1TwwaTcdmTiU2FHOC5xC3Vw) Baidu Netdisk with **fetch code**: [ie0k] Or Google drive [DSS-USOD baseline](https://drive.google.com/file/d/1fFKhuuR2MEEjBWRtjFdMZCoRxLrQqUK1/view?usp=drive_link) is simple but strong, it adopts a hybrid architecture based on an encoder-decoder design that leverages transformer and convolution as the basic computational building block of the encoder and decoder, respectively. 
-
-![](framework2.png)
-### Requirement
-1. Python 3.8
-2. Pytorch 1.6.0
-3. Torchvison 0.7.0
-
-## Benchmark
-We retrained 40 SOTA methods in the fields of SOD and USOD. Here is the qualitative evaluation of the 40 SOTA methods and the proposed DSS-USOD baseline.
-![avatar](https://github.com/LinHong-HIT/USOD10K/blob/4ac87c771709fc62ba0bce219cdaec2bee176c0d/qualitative_va.png)
-
-(1) **Predicted saliency maps of USOD10K** are available [BaiduNetdisk](https://pan.baidu.com/s/1EpnE07lgamyaUIUZWdccqA) **fetch code**: [usod] &&& [Google driven](https://drive.google.com/file/d/1D4wLLol843DEpolmO-cYpo2jaiBY7Ufn/view?usp=drive_link)
-
-(2) **Predicted saliency maps of USOD** are available [BaiduNetdisk](https://pan.baidu.com/s/1cnmMZ0JSshssm2jc9p2BdA ) **fetch code**: [usod]  &&& [Google driven](https://drive.google.com/file/d/1YoXKUKaauy2PkkISpK-QWJpetXIsTsrO/view?usp=drive_link)
-
-(3) **Evaluation results** are available [BaiduNetdisk](https://pan.baidu.com/s/1AL4WQeFh1KrD0jj9JW182g) **fetch code**: [usod]  &&& [Google driven](https://drive.google.com/file/d/1jCuCvK-UJY9q3g_TMQ7NTWqXfXbG21bk/view?usp=drive_link)
+---
+Overview
+DSS-USOD is a simple yet strong baseline model for underwater salient object detection (USOD). The model adopts a concise encoder-decoder hybrid architecture, which takes Transformer as the core module of the encoder and convolution as the core module of the decoder, achieving superior performance on complex underwater scene benchmarks.
 
 
-## Bibliography entry
-If you think our work is helpful, please cite
-```
+---
+Environment Requirements
+Python 3.8
+Pytorch 1.6.0
+Torchvision 0.7.0
+
+---
+Pretrained Model & Resources Download
+Trained Baseline Model
+- Baidu Netdisk: https://pan.baidu.com/s/1TwwaTcdmTiU2FHOC5xC3VwFetch Code: ie0k
+- Google Drive: DSS-USOD Baseline
+Benchmark Prediction & Evaluation Results
+We retrain and evaluate 40 state-of-the-art (SOTA) methods in the field of salient object detection (SOD) and underwater salient object detection (USOD) for comprehensive benchmark comparison.
+1. Predicted Saliency Maps (USOD10K)
+Baidu Netdisk: https://pan.baidu.com/s/1EpnE07lgamyaUIUZWdccqAFetch Code: usod
+Google Drive: https://drive.google.com/file/1D4wLLol84DEpolmO-cYpo2jaiBY7Ufn
+2. Predicted Saliency Maps (USOD)
+Baidu Netdisk: https://pan.baidu.com/s/1cnmMZ0JSshssm2jc9p2BdAFetch Code: usod
+Google Drive: https://drive.google.com/file/1YoXKUKaauy2PkkISpK-QWJpetXIsTsrO
+3. Quantitative Evaluation Results
+Baidu Netdisk: https://pan.baidu.com/s/1AL4WQeFh1KrD0jj9JW182gFetch Code: usod
+Google Drive: https://drive.google.com/file/1jCuCvK-UJY9q3g_TMQ7NTWqXfXbG21bk
+Qualitative Comparison Visualization
+
+
+---
+Citation
+If you find our work useful for your research, please cite our related paper:
 @ARTICLE{10102831,
   author={Hong, Lin and Wang, Xin and Zhang, Gan and Zhao, Ming},
   journal={IEEE Transactions on Image Processing}, 
   title={USOD10K: A New Benchmark Dataset for Underwater Salient Object Detection}, 
   year={2025},
   volume={34},
-  number={},
   pages={1602-1615},
-  doi={10.1109/TIP.2023.3266163}}
-```
+  doi={10.1109/TIP.2023.3266163}
+}
 
-## Acknowledgement
-We thank the developer of [MMdetection](https://github.com/open-mmlab/mmdetection), [WaterMask](https://github.com/LiamLian0727/WaterMask), and [USIS-SAM](https://github.com/LiamLian0727/USIS10K) for providing their open-source code, which greatly facilitated our benchmark evaluations.
+---
+Acknowledgement
+We sincerely thank the contributors of the following open-source projects for their excellent work, which greatly supports our model implementation and benchmark evaluation:
+- MMDetection
+- WaterMask
+- USIS-SAM & USIS10K
 
-## Note to active participants
-
-** We hope this work offers a new perspective on RGB-based USOD by demonstrating the importance of explicitly disentangling and dynamically coordinating complementary structural representations learned from a single RGB image.** 
+---
+Core Note
+This work provides a novel research perspective for RGB-based underwater salient object detection, by verifying the effectiveness of explicitly disentangling and dynamically coordinating complementary structural representations from a single RGB image in complex underwater degradation scenarios.
