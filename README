@@ -7,21 +7,43 @@ Created by **Lin Hong**, email: eelinhong@ust.hk
 **! We are open to collaboration and are looking for self-motivated students. If you’re interested in this topic, please feel free to contact me via email.**
 
 
+## TC-USOD baseline
+The [TC-USOD baseline](https://pan.baidu.com/s/1TwwaTcdmTiU2FHOC5xC3Vw) Baidu Netdisk with **fetch code**: [ie0k] Or Google drive [TC-USOD baseline](https://drive.google.com/file/d/1fFKhuuR2MEEjBWRtjFdMZCoRxLrQqUK1/view?usp=drive_link) is simple but strong, it adopts a hybrid architecture based on an encoder-decoder design that leverages transformer and convolution as the basic computational building block of the encoder and decoder, respectively. 
+
+**How to generate predicted saliency maps by yourself or retrain this model:**
+You create a folder named checkpoint under the TC_USOD folder (cd TC_USOD->mkdir checkpoint) and put the download TC-USOD baseline model in it to generate the **predicted saliency maps** (You can also find them in the TC_USOD/preds/USOD10K in this project). Of course, you can retrain this method with the available USOD10K dataset to get your own model. 
+
+![](framework2.png)
+### Requirement
+1. Python 3.8
+2. Pytorch 1.6.0
+3. Torchvison 0.7.0
+
 ## Benchmark
-We retrained 8 object detection methods and 10 instance segmentation models in the MMDetection, as well as the specialized models WaterMask and USIS-SAM, on the USIS16K dataset. 
-A qualitative evaluation of the 12 representative methods on USIS tasks is shown.
-![](Compare.png)
-The [retrained models](https://gohkust-my.sharepoint.com/:u:/g/personal/eelinhong_ust_hk/EYjpesHs4KFGhwql-NLkL4wBjWf2PDDP7MYKlKztIG1K3Q?e=FJnxAS), along with their corresponding [predicted saliency maps](https://gohkust-my.sharepoint.com/:u:/g/personal/eelinhong_ust_hk/EQgBx9VG0NFNjObRQUGCVisBlc0xbWO9pdvOO2KBGSxXgg?e=0f7sGV), will be made publicly available in the near future.
+We retrained 35 SOTA methods in the fields of SOD and USOD. It takes us about 1750 hours to retrain these methods. Here is the qualitative evaluation of the 35 SOTA methods and the proposed TC-USOD baseline.
+![avatar](https://github.com/LinHong-HIT/USOD10K/blob/4ac87c771709fc62ba0bce219cdaec2bee176c0d/qualitative_eva.png)
+
+(1) **Retrained models** are available [BaiduNetdisk](https://pan.baidu.com/s/1VXyNHxy5Iy5GYYBCh_2thg) **fetch code**: [usod]  &&& [Googledriven](https://drive.google.com/file/d/1x_UhY7Ik6rFqkk4f5wNG97_CfC_DD7JZ/view?usp=drive_link) 
+
+(2) **Predicted saliency maps of USOD10K** are available [BaiduNetdisk](https://pan.baidu.com/s/1EpnE07lgamyaUIUZWdccqA) **fetch code**: [usod] &&& [Google driven](https://drive.google.com/file/d/1D4wLLol843DEpolmO-cYpo2jaiBY7Ufn/view?usp=drive_link)
+
+(3) **Predicted saliency maps of USOD** are available [BaiduNetdisk](https://pan.baidu.com/s/1cnmMZ0JSshssm2jc9p2BdA ) **fetch code**: [usod]  &&& [Google driven](https://drive.google.com/file/d/1YoXKUKaauy2PkkISpK-QWJpetXIsTsrO/view?usp=drive_link)
+
+(4) **Evaluation results** are available [BaiduNetdisk](https://pan.baidu.com/s/1AL4WQeFh1KrD0jj9JW182g) **fetch code**: [usod]  &&& [Google driven](https://drive.google.com/file/d/1jCuCvK-UJY9q3g_TMQ7NTWqXfXbG21bk/view?usp=drive_link)
+
 
 ## Bibliography entry
 If you think our work is helpful, please cite
 ```
-@article{hong2025usis16k,
-  title={USIS16K: High-Quality Dataset for Underwater Salient Instance Segmentation},
-  author={Hong, Lin and Wang, Xin and Li, Yihao and Wang, Xia},
-  journal={arXiv preprint arXiv:2506.19472},
-  year={2025}
-}
+@ARTICLE{10102831,
+  author={Hong, Lin and Wang, Xin and Zhang, Gan and Zhao, Ming},
+  journal={IEEE Transactions on Image Processing}, 
+  title={USOD10K: A New Benchmark Dataset for Underwater Salient Object Detection}, 
+  year={2025},
+  volume={34},
+  number={},
+  pages={1602-1615},
+  doi={10.1109/TIP.2023.3266163}}
 ```
 
 ## Acknowledgement
