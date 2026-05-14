@@ -3,8 +3,6 @@ Source code for our paper **[Learning Dynamic Structural Specialization for Unde
 
 Created by **Lin Hong**, email: eelinhong@ust.hk
 
-> We are open to collaboration and are looking for self-motivated students. If you're interested in this topic, please feel free to contact me via email.
-
 ---
 
 ## Overview
