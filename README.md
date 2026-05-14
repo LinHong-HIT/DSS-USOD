@@ -56,7 +56,7 @@ If you think our work is helpful, please cite:
 ---
 
 ## Acknowledgement
-We thank the developer of [MMdetection](https://github.com/open-mmlab/mmdetection), [WaterMask](https://github.com/LiamLian0727/WaterMask), and [USIS-SAM](https://github.com/LiamLian0727/USIS10K) for providing their open-source code, which greatly facilitated our benchmark evaluations.
+We thank the developer of the 40 representative methods for providing their open-source code, which greatly facilitated our benchmark evaluations.
 
 ---
 
