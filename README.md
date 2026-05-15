@@ -17,18 +17,17 @@ The [trained model](https://pan.baidu.com/s/1TwwaTcdmTiU2FHOC5xC3Vw) (Baidu Netd
 - Numpy 2.2.6
 
 ---
-Model Training & Inference
-
----
-Train Your Own Model
-1. Download the USOD10K dataset and place it in the data folder.
-2. Update the datapath config to your local dataset path.
+### Model Training & Inference
+## Train Your Own Model
+1. Download the USOD10K dataset and place it in the `data` folder.
+2. Update the `datapath` config to your local dataset path.
 3. Run training:
-        python train.py
-Inference with Pre-trained Model
-1. Download the trained model checkpoint and place it in the checkpoints folder.
+   `python train.py`
+
+## Inference with Pre-trained Model
+1. Download the trained model checkpoint and place it in the `checkpoints` folder.
 2. Run inference:
-        python inf.py
+   `python inf.py`
 ---
 ## Benchmark
 We retrained 40 SOTA methods in the fields of SOD and USOD. Here is the qualitative evaluation of the 40 SOTA methods and the proposed DSS-USOD baseline.
