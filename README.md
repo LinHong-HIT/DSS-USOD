@@ -35,17 +35,21 @@ We retrained 40 SOTA methods in the fields of SOD and USOD. Here is the qualitat
 ![Qualitative Evaluation](qualitative_compare2.png)
 
 ### Available Resources
-1. **Predicted saliency maps of USOD10K**  
-   Baidu Netdisk: [Link](https://pan.baidu.com/s/1EpnE07lgamyaUIUZWdccqA) | Fetch code: usod  
-   Google Drive: [Link](https://drive.google.com/file/d/1D4wLLol843DEpolmO-cYpo2jaiBY7Ufn/view?usp=drive_link)
+1. **Predicted saliency maps of DSS-USOD**  
+   Baidu Netdisk: [Link](https://pan.baidu.com/s/1ighRFyIl1ci-BAeVBCk4Ng?pwd=USOD) | Fetch code: USOD  
+   Google Drive: [Link](https://drive.google.com/file/d/1-XTSrWKnb4Yg2ysFrr4asPQFWbsK0AW6/view?usp=sharing)
 
-2. **Predicted saliency maps of USOD**  
-   Baidu Netdisk: [Link](https://pan.baidu.com/s/1cnmMZ0JSshssm2jc9p2BdA) | Fetch code: usod  
-   Google Drive: [Link](https://drive.google.com/file/d/1YoXKUKaauy2PkkISpK-QWJpetXIsTsrO/view?usp=drive_link)
+2. **Predicted saliency maps of 40 representative methods on USOD10K**  
+   Baidu Netdisk: [Link](https://pan.baidu.com/s/1QHF8izDaJkkhQvW5KqKv1Q?pwd=USOD) | Fetch code: USOD  
+   Google Drive: [Link](https://drive.google.com/file/d/1FgXQrILBG4Ei_q6gLOpRipT1swEMBPWa/view?usp=sharing)
 
-3. **Evaluation results**  
-   Baidu Netdisk: [Link](https://pan.baidu.com/s/1AL4WQeFh1KrD0jj9JW182g) | Fetch code: usod  
-   Google Drive: [Link](https://drive.google.com/file/d/1jCuCvK-UJYq3g_TMQ7NTWqXfXbG21bk/view?usp=drive_link)
+3. **Predicted saliency maps of 40 representative methods on USOD**  
+   Baidu Netdisk: [Link](https://pan.baidu.com/s/1nUhnoz05ylUvwSupblGCMA?pwd=USOD) | Fetch code: USOD  
+   Google Drive: [Link](https://drive.google.com/file/d/1xpcD2gDxMIWbq8b0y5AtIm9f6D7x2c2h/view?usp=sharing)
+
+4. **Evaluation results**  
+   Baidu Netdisk: [Link](https://pan.baidu.com/s/1MgSNz7P75H4_wL6nyJwTeQ?pwd=USOD) | Fetch code: USOD  
+   Google Drive: [Link](https://drive.google.com/file/d/106tHlSO9PTOnYYpjt649dvp09AdLfKKI/view?usp=sharing)
 
 ---
 
