@@ -1,0 +1,2 @@
+USOD10K (our): 0.0166 mae || 0.9363 max-fm || 0.9265 mean-fm || 0.9740 max-Emeasure || 0.9707 mean-Emeasure || 0.9336 S-measure || 0.9083 AP || 0.9670 AUC.
+USOD10K (our): 0.0165 mae || 0.9364 max-fm || 0.9266 mean-fm || 0.9740 max-Emeasure || 0.9707 mean-Emeasure || 0.9338 S-measure || 0.9084 AP || 0.9671 AUC.

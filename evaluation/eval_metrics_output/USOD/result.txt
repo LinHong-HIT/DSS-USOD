@@ -1,0 +1,1 @@
+[cost:17.8368s] USOD (our): 0.0299 mae || 0.9335 max-fm || 0.9271 mean-fm || 0.9547 max-Emeasure || 0.9514 mean-Emeasure || 0.9222 S-measure || 0.9129 AP || 0.9563 AUC.
