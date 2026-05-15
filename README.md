@@ -69,6 +69,7 @@ If you think our work is helpful, please cite:
 
 ## Acknowledgement
 We thank the developer of the 40 representative methods for providing their open-source code, which greatly facilitated our benchmark evaluations.
+The authors would like to express their sincere gratitude to Prof. Deng-Ping Fan for his valuable suggestions and insightful discussions.
 
 ---
 
