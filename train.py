@@ -19,7 +19,7 @@ from torch.utils.data.distributed import DistributedSampler
 from torch.nn.parallel import DistributedDataParallel as DDP
 
 from src.dataset import USODDataset
-from src.model2 import USODNet
+from src.model import DSSUSOD
 from src.utils import structure_loss
 
 
@@ -398,9 +398,9 @@ def train():
     )
 
     if is_main_process():
-        print("Creating Model: USODNet")
+        print("Creating Model: DSSUSOD")
 
-    model = USODNet(in_chans=3).to(device)
+    model = DSSUSOD(in_chans=3).to(device)
     model = DDP(model, device_ids=[local_rank], output_device=local_rank, find_unused_parameters=False)
 
     optimizer = optim.AdamW(model.parameters(), lr=1e-4, weight_decay=1e-2)
