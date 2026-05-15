@@ -73,4 +73,4 @@ We thank the developer of the 40 representative methods for providing their open
 ---
 
 ## Note to Active Participants
-We hope this work offers a new perspective on RGB-based USOD by demonstrating the importance of explicitly disentangling and dynamically coordinating complementary structural representations learned from diverse underwater images. Your contributions and feedback are welcome!
+We hope this work offers a new perspective on RGB-based USOD by demonstrating the importance of explicitly disentangling and dynamically coordinating complementary structural representations learned from underwater images. Your contributions and feedback are welcome!
