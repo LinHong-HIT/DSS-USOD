@@ -11,9 +11,10 @@ The [trained model](https://pan.baidu.com/s/1TwwaTcdmTiU2FHOC5xC3Vw) (Baidu Netd
 ![DSS-USOD Framework](framework7.png)
 
 ### Requirements
-- Python 3.8
-- PyTorch 1.6.0
-- TorchVision 0.7.0
+- Python 3.11
+- PyTorch 2.5.0+cuda124
+- TorchVision 0.20.0+cuda124
+- Numpy 2.2.6
 
 ---
 
