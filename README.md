@@ -60,13 +60,12 @@ If you think our work is helpful, please cite:
 ```bibtex
 @ARTICLE{10102831,
   author={Hong, Lin and Wang, Xin and Zhang, Gan and Zhao, Ming},
-  journal={IEEE Transactions on Image Processing},
-  title={USOD10K: A New Benchmark Dataset for Underwater Salient Object Detection},
-  year={2025},
+  journal={arXiv},
+  title={Learning Dynamic Structural Specialization for Underwater Salient Object Detection},
+  year={2026},
   volume={34},
   number={},
   pages={1602-1615},
-  doi={10.1109/TIP.2023.3266163}
 }
 ```
 
