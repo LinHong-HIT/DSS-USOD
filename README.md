@@ -6,7 +6,7 @@ Created by **Lin Hong**, email: eelinhong@ust.hk
 ---
 
 ## Overview
-The [trained model](https://pan.baidu.com/s/1XrjVo-3aIjtz1we7VyYhsw?pwd=USOD) (Baidu Netdisk, fetch code: USOD) or [Google Drive (DSS-USOD baseline)](https://drive.google.com/file/d/1SMGjuNXauvSFUt9BW4tg6rtq0ZBsbTKm/view?usp=sharing) can be downloaded.
+The [trained model](https://pan.baidu.com/s/1XrjVo-3aIjtz1we7VyYhsw?pwd=USOD) (Baidu Netdisk, fetch code: USOD) or [Google Drive](https://drive.google.com/file/d/1SMGjuNXauvSFUt9BW4tg6rtq0ZBsbTKm/view?usp=sharing) can be downloaded.
 
 ![DSS-USOD Framework](framework7.png)
 
