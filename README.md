@@ -6,7 +6,8 @@ Created by **Lin Hong**, email: eelinhong@ust.hk
 ---
 
 ## Overview
-The [trained model](https://pan.baidu.com/s/1XrjVo-3aIjtz1we7VyYhsw?pwd=USOD) (Baidu Netdisk, fetch code: USOD) or [Google Drive](https://drive.google.com/file/d/1SMGjuNXauvSFUt9BW4tg6rtq0ZBsbTKm/view?usp=sharing) can be downloaded.
+Underwater salient object detection (USOD) has attracted increasing attention for underwater visual scene understanding and vision-guided robotic applications. However, existing USOD methods still struggle with underwater image degradations, which often lead to inaccurate object localization, fragmented salient regions, and coarse boundary prediction. To address these challenges, this paper proposes DSS-USOD, a novel RGB-based USOD method built upon dynamic structural specialization. 
+The [trained model](https://pan.baidu.com/s/1XrjVo-3aIjtz1we7VyYhsw?pwd=USOD) (Baidu Netdisk, fetch code: USOD) or [Google Drive version](https://drive.google.com/file/d/1SMGjuNXauvSFUt9BW4tg6rtq0ZBsbTKm/view?usp=sharing) can be downloaded.
 
 ![DSS-USOD Framework](framework7.png)
 
