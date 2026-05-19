@@ -58,14 +58,14 @@ We retrained 40 SOTA methods in the fields of SOD and USOD. Here is the qualitat
 If you think our work is helpful, please cite:
 
 ```bibtex
-@ARTICLE{10102831,
-  author={Hong, Lin and Wang, Xin and Zhang, Gan and Zhao, Ming},
-  journal={arXiv},
-  title={Learning Dynamic Structural Specialization for Underwater Salient Object Detection},
-  year={2026},
-  volume={34},
-  number={},
-  pages={1602-1615},
+@misc{hong2026learningdynamicstructuralspecialization,
+      title={Learning Dynamic Structural Specialization for Underwater Salient Object Detection}, 
+      author={Lin Hong and Chenhui Wang and Linan Deng and Yuning Cui and Yu Zhang and Xin Wang and Bojian Zhang and Wenqi Ren and Xingchen Yang and Fumin Zhang},
+      year={2026},
+      eprint={2605.15535},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2605.15535}, 
 }
 ```
 
