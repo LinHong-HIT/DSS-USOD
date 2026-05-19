@@ -1,5 +1,5 @@
 # DSS-USOD
-Source code for our paper **[Learning Dynamic Structural Specialization for Underwater Salient Object Detection](https://arxiv.org/abs/2506.19472)**.
+Source code for our paper **[Learning Dynamic Structural Specialization for Underwater Salient Object Detection](https://arxiv.org/abs/2605.15535)**.
 
 Created by **Lin Hong**, email: eelinhong@ust.hk
 
