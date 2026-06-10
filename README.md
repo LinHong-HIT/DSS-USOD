@@ -53,9 +53,8 @@ We retrained 40 SOTA methods in the fields of SOD and USOD. Here is the qualitat
    Google Drive: [Link](https://drive.google.com/file/d/106tHlSO9PTOnYYpjt649dvp09AdLfKKI/view?usp=sharing)
 
 ---
-### Available Resources
-
- **Real-world application for robotic underwater object inspection using DSS-USOD**  
+### Real-world application
+ **Underwater robotic object inspection using DSS-USOD**  
  ![Experiment](exp.gif)
 ---
 ## Bibliography Entry
