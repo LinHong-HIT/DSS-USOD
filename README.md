@@ -1,12 +1,12 @@
-# DSS-USOD
-Source code for our paper **[Learning Dynamic Structural Specialization for Underwater Salient Object Detection](https://arxiv.org/abs/2605.15535)**.
+# SASC-USOD
+Source code for our paper **[Learning Spatially Adaptive Structural Coordination for Underwater Salient Object Detection](https://arxiv.org/abs/2605.15535)**.
 
 Created by **Lin Hong**, email: eelinhong@ust.hk
 
 ---
 
 ## Overview
-Underwater salient object detection (USOD) has attracted increasing attention for underwater visual scene understanding and vision-guided robotic applications. However, existing USOD methods still struggle with underwater image degradations, which often lead to inaccurate object localization, fragmented salient regions, and coarse boundary prediction. To address these challenges, this paper proposes DSS-USOD, a novel RGB-based USOD method built upon dynamic structural specialization. 
+Underwater salient object detection (USOD) has attracted increasing attention for underwater visual scene understanding and vision-guided robotic applications. However, existing USOD methods still struggle with underwater image degradations, which often lead to inaccurate object localization, fragmented salient regions, and coarse boundary prediction. To address these challenges, this paper proposes SASC-USOD, a novel RGB-based USOD method based on Spatially Adaptive Structural Coordination. 
 The [trained model](https://pan.baidu.com/s/1XrjVo-3aIjtz1we7VyYhsw?pwd=USOD) (Baidu Netdisk, fetch code: USOD) or [Google Drive version](https://drive.google.com/file/d/1SMGjuNXauvSFUt9BW4tg6rtq0ZBsbTKm/view?usp=sharing) can be downloaded.
 
 ![DSS-USOD Framework](framework7.png)
@@ -31,12 +31,12 @@ The [trained model](https://pan.baidu.com/s/1XrjVo-3aIjtz1we7VyYhsw?pwd=USOD) (B
    `python inf.py`
 ---
 ## Benchmark
-We retrained 40 SOTA methods in the fields of SOD and USOD. Here is the qualitative evaluation of the 40 SOTA methods and the proposed DSS-USOD baseline.
+We retrained 40 SOTA methods in the fields of SOD and USOD. Here is the qualitative evaluation of the 40 SOTA methods and the proposed SASC-USOD baseline.
 
 ![Qualitative Evaluation](qualitative_compare2.png)
 
 ### Available Resources
-1. **Predicted saliency maps of DSS-USOD**  
+1. **Predicted saliency maps of SASC-USOD**  
    Baidu Netdisk: [Link](https://pan.baidu.com/s/1ighRFyIl1ci-BAeVBCk4Ng?pwd=USOD) | Fetch code: USOD  
    Google Drive: [Link](https://drive.google.com/file/d/1-XTSrWKnb4Yg2ysFrr4asPQFWbsK0AW6/view?usp=sharing)
 
@@ -61,8 +61,8 @@ If you think our work is helpful, please cite:
 
 ```bibtex
 @misc{hong2026learningdynamicstructuralspecialization,
-      title={Learning Dynamic Structural Specialization for Underwater Salient Object Detection}, 
-      author={Lin Hong and Chenhui Wang and Linan Deng and Yuning Cui and Yu Zhang and Xin Wang and Bojian Zhang and Wenqi Ren and Xingchen Yang and Fumin Zhang},
+      title={Learning Spatially Adaptive Structural Coordination for Underwater Salient Object Detection}, 
+      author={Lin Hong and Chenhui Wang and Linan Deng and Yuning Cui and Yu Zhang and Xin Wang and Bojian Zhang and Xingchen Yang and Fumin Zhang},
       year={2026},
       eprint={2605.15535},
       archivePrefix={arXiv},
